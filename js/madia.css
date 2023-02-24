@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px) {
+  .perantCol {
+    width: 25%;
+  }
+  .Egyptian {
+    transform: translateX(-0%);
+  }
+  footer  {
+    
+    text-align: center;
+  }
+  textarea {
+    width: 40vh;
+  }
+}

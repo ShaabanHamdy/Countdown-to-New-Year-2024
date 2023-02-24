@@ -1,0 +1,200 @@
+header {
+  background-image: url(../image/new_year_big.jpg);
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.bothDiv {
+  display: flex;
+  align-items: center;
+  height: 95vh;
+}
+.over-lay {
+  background-color: rgba(18, 0, 0, 0.3);
+  height: 90vh;
+}
+
+.Egyptian > h1 {
+  font-size: 60px;
+  line-height: 35px;
+}
+.Egyptian small {
+  font-size: 20px;
+}
+
+.open-div {
+  position: fixed;
+  left: -200px;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #414658;
+  line-height: 40px;
+  z-index: 99999999;
+}
+.open-div > a {
+  line-height: 50px;
+  margin-left: 70px;
+  padding-left: 70px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff !important;
+}
+.open-slide {
+  margin-left: 0px;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px;
+}
+.ul-side {
+  list-style: none;
+  line-height: 70px;
+  font-size: 20px;
+  transform: translate(-10%, 0%);
+  padding: 40px;
+}
+.ul-side a {
+  color: #fff !important;
+  text-decoration: none;
+}
+.ul-side a:hover {
+  color: rgba(214, 46, 51, 0.4) !important;
+}
+
+#xClose:hover {
+  color: rgba(214, 46, 51, 0.4) !important;
+}
+
+/* =end header============================================================ */
+section {
+  padding-top: 50px;
+}
+.sec2 {
+  height: 60%;
+  width: 40%;
+}
+.sec2 h3 {
+  cursor: pointer;
+  background-color: rgba(214, 46, 51, 0.6);
+  color: #fff;
+  margin: 0;
+  line-height: 50px;
+}
+.sec2 p {
+  background-color: #ccc;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 10px;
+  color: #000;
+  margin: 0;
+  display: none;
+}
+/* =end section 1 ========================================================================== */
+.section2 {
+  height: 50vh;
+  margin-bottom: 100px;
+}
+.roww {
+  height: 50vh;
+}
+.con {
+  height: 50vh;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+.overLayer2 {
+  background-image: url(../image/events-heavenly-header.jpg);
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+.perantCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textDiv {
+  color: #fff;
+  padding: 70px;
+  border: 2px solid #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .roww {
+    width: 100% !important;
+  }
+}
+
+/* ============================================================ */
+/* ======================/fote/r */
+
+.divROW {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.foter h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 35px;
+}
+.foter {
+  margin-left: 50px;
+  padding: 20px;
+}
+.clas-p span {
+  margin-left: 100px;
+}
+.social-icon i:hover {
+  color: #fff;
+  background-color: rgba(214, 46, 51, 0.4);
+}
+.social-icon i {
+  cursor: pointer;
+  line-height: 40px;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #999;
+  text-align: center;
+}
+.social-icon {
+  margin: 50px;
+  letter-spacing: 5px;
+  font-size: 15px;
+  padding: 10px;
+}
+.btn-foter {
+  transform: translateX(50%);
+}
+
+/* ----------@media screen--------------------------------------------- */
+@media screen and (min-width: 100px) and (max-width: 900px) {
+  .Egyptian > h1 {
+    transform: translateY(30%);
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .textDiv{
+    padding: 20px;
+  }
+
+  .btn-foter {
+    margin: 0px 100px 50px 0;
+  }
+  textarea {
+    width: 250px !important;
+    border-left: 1px solid #000;
+  }
+  .divROW {
+    margin-right: 20px !important;
+  }
+
+  .social-icon {
+    padding: 70px !important;
+    margin: 30px !important;
+  }
+  header {
+    background-size: 100% 100%;
+  }
+}
