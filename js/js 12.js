@@ -32,37 +32,35 @@ let counter = setInterval(() => {
 
   let days = Math.floor(dateDiff / (1000 * 60 * 60 * 24));
 
-  GetDay.innerHTML = `${days} D`;
+  GetDay.innerHTML = `${days}D`;
 
   let hours = Math.floor((dateDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 
-  GetHours.innerHTML = `${hours} H`;
+  GetHours.innerHTML = `${hours}H`;
 
-  let munits = Math.floor((dateDiff % (1000 * 60 * 60)) / (1000 * 60));
+  let minutes = Math.floor((dateDiff % (1000 * 60 * 60)) / (1000 * 60));
 
-  GetMunits.innerHTML = `${munits} M`;
+  GetMinutes.innerHTML = `${minutes}M`;
 
-  let sucound = Math.floor((dateDiff % (1000 * 60)) / 1000);
+  let second = Math.floor((dateDiff % (1000 * 60)) / 1000);
 
-  GetSocend.innerHTML = `${sucound} S`;
+  GetSecond.innerHTML = `${second}S`;
 }, 1000);
 
 
 
 // ==============================
 
-$(function(){
+$(function () {
   let maxNumber = 100
-  $('textarea').keyup(function(){
+  $('textarea').keyup(function () {
     let valLength = $(this).val().length
-    
+
     let numberVal = maxNumber - valLength
-    if (numberVal<=0)
-     {
+    if (numberVal <= 0) {
       $('.foterNumber span').text('your available character finished')
     }
-    else 
-    {
+    else {
       $(".foterNumber span").text(numberVal);
     }
   })
