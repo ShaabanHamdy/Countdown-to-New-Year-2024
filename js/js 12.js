@@ -23,7 +23,7 @@ $(document).ready(function () {
   });
 });
 // =================================================
-let countDaownDate = new Date("January  1, 2024 23:59:59").getTime();
+let countDaownDate = new Date("January  1, 2025 23:59:59").getTime();
 
 let counter = setInterval(() => {
   let dateNow = new Date().getTime();
